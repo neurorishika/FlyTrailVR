@@ -165,3 +165,6 @@ directory.path
 
 # Mac OS
 **/.DS_Store
+
+# include charlie_rig_rishika subfolder in data folder
+!data/charlie_rig_rishika/
