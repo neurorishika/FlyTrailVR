@@ -1,0 +1,5 @@
+Genotype: Orco-Gal4/UAS-CsChrimson
+Fly ID: 2
+Experiment: orco_alternated_wind_48hr
+Log Directory: /home/rutalab/Desktop/data/charlie_rig_rishika/orco_alternated_wind_48hr_20240322-105843
+Comments: starved for 48 hours

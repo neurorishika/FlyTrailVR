@@ -1,0 +1,5 @@
+Genotype: Orco-Gal4/UAS-CsChrimson
+Fly ID: 1
+Experiment: orco_thinstrip_lowwind
+Log Directory: /home/rutalab/Desktop/data/charlie_rig_rishika/orco_thinstrip_lowwind_20240322-114228
+Comments: visual
