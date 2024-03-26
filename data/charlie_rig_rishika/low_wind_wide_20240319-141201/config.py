@@ -16,15 +16,12 @@ strip_width = 10 # in mm
 periodic_boundary = True # True or False
 period_width = 100 # in mm
 
-flowrate_high = 300 # in standard ml/min
-flowrate_low = 20 # in standard ml/min
-alternation_time = 120 # in seconds
-
+flowrate = 300 # in standard ml/min
 percent_odor = 20 # in percent
-pre_onset_time = 120 # in seconds
+pre_onset_time = 60 # in seconds
 
 ##############################################
-led_intensity = 100 # in percent
+led_intensity = 0
 led_color = "red"
 window_len = 120 # for computing sliding window values
 pulse_period = 10.0 # period for hardware pulse

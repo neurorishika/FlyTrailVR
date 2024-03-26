@@ -11,7 +11,10 @@ __getattr__, __dir__, __all__ = lazy_loader.attach(
             'unlock_and_unzip_file',
             'zip_and_lock_folder',
         ],
+        'utils': [
+            'extract_data',
+        ],
     },
 )
 
-__all__ = ['rdp_client', 'unlock_and_unzip_file', 'zip_and_lock_folder']
+__all__ = ['rdp_client', 'unlock_and_unzip_file', 'zip_and_lock_folder', 'extract_data']
