@@ -1,0 +1,5 @@
+Genotype: Orco-Gal4/UAS-CsChrimson
+Fly ID: 3
+Experiment: orco_alternated_wind_continued
+Log Directory: /home/rutalab/Desktop/data/charlie_rig_rishika/orco_alternated_wind_continued_20240326-144619
+Comments: due to fictracc error
