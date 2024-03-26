@@ -1,0 +1,5 @@
+Genotype: Orco-Gal4/UAS-CsChrimson
+Fly ID: 1
+Experiment: orco_alternated_wind
+Log Directory: /home/rutalab/Desktop/data/charlie_rig_rishika/orco_alternated_wind_20240326-105020
+Comments: a little wobbly on the ball
