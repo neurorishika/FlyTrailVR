@@ -155,15 +155,12 @@ temp/
 .archive/
 # key files anywhere in the project directory and subfolders
 **/*.key
-# data folders anywhere in the project directory and subfolders
-**/data/*/
 # unprotected zip files anywhere in the project directory and subfolders
 **/*.zip
 # directorypaths
 directory.path
+# remove *.dat files
+*.dat
 
 # Mac OS
 **/.DS_Store
-
-# include charlie_rig_rishika subfolder in data folder
-!data/charlie_rig_rishika/
