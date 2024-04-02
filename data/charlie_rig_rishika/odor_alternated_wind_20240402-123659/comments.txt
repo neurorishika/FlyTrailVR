@@ -1,0 +1,5 @@
+Genotype: WT-CantonS
+Fly ID: 3
+Experiment: odor_alternated_wind
+Log Directory: /home/rutalab/Desktop/data/charlie_rig_rishika/odor_alternated_wind_20240402-123659
+Comments: same as fly 1 today
