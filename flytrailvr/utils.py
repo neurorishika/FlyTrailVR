@@ -170,7 +170,8 @@ def plot_trajectory(
         save=None,
         config_title=True,
         colormaps=[],
-        odor_or_led='odor'
+        odor_or_led='odor',
+        black_background=False
 ):
     # process the important variables
     processed_data = process_important_variables(df, config)
@@ -190,6 +191,22 @@ def plot_trajectory(
     # set the figure size
     xby = (x.max()-x.min())/(y.max()-y.min())
     fig, ax = plt.subplots(figsize=(xby*scale_factor+1, 1*scale_factor))
+    if black_background:
+        # make the background black
+        fig.patch.set_facecolor('black')
+        ax.set_facecolor('black')
+        ax.spines['bottom'].set_color('white')
+        ax.spines['top'].set_color('white')
+        ax.spines['right'].set_color('white')
+        # set the ticks to white
+        ax.tick_params(axis='x', colors='white')
+        ax.tick_params(axis='y', colors='white')
+        # set the labels to white
+        ax.xaxis.label.set_color('white')
+        ax.yaxis.label.set_color('white')
+        # set the title to white
+        ax.title.set_color('white')
+    
     
     # plot the trajectory (different colors for different flow rates)
     for i, flow_rate in enumerate(unique_flow_rates):
